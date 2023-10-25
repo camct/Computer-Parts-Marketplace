@@ -6,13 +6,13 @@ require_once 'vendor/autoload.php';
 $google_client = new Google_Client();
  
 //Set the OAuth 2.0 Client ID
-$google_client->setClientId('407213189356-cub6km9nmeuohlb3v28ldfpeuut4p9bv.apps.googleusercontent.com');
+$google_client->setClientId('');
  
 //Set the OAuth 2.0 Client Secret key
-$google_client->setClientSecret('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');
+$google_client->setClientSecret('');
  
 //Set the OAuth 2.0 Redirect URI
-$google_client->setRedirectUri('https://db-project-370016.uk.r.appspot.com/dashboard.php');
+$google_client->setRedirectUri('');
  
 //
 $google_client->addScope('email');
